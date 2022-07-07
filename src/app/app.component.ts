@@ -23,4 +23,9 @@ export class AppComponent {
       await downloadPdf(item);
     }
   }
+
+  async downloadFiles2(file: FileInterface) {
+    console.log('Descargando documentos...')
+      await downloadPdf(file);
+  }
 }

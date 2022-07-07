@@ -1,0 +1,7 @@
+.list{
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  line-height: 30px;
+  list-style: circle
+}

@@ -14,5 +14,4 @@ export const downloadPdf = (file: FileInterface): Promise<boolean> => {
       resolve(true);
     }, 100)
   })
-
 }
