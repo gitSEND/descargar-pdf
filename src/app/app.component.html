@@ -1,14 +1,14 @@
-<h1>List de archives PDF 2022</h1>
+<h1>List of archives PDF 2022</h1>
 <div>
   <ul>
-
     <li class="list" *ngFor="let item of list">{{item.title}}
-      <button (click)="downloadFiles2(item)">Descargar</button>
+      <button (click)="downloadFiles2(item)">Download</button>
     </li>
   </ul>
 </div>
-<button (click)="downloadFiles()">Descargar todos los docs...</button>
-
+<button style="display: block; background-color: yellow" (click)="downloadFiles()">Download all docs without libraries</button>
+<button style="display: block; background-color: aqua" (click)="generateZip()">Download doc.zip with File-save + JsZip Library</button>
+<button style="display: block; background-color: lightgreen" (click)="generateZip()">Download docs.zip only with JsZip Library</button>
 
 
 
